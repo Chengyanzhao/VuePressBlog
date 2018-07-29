@@ -12,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "element-ui": "^2.4.5",
+    "moment": "^2.22.2",
     "vuepress": "^0.13.0"
   }
 }

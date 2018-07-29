@@ -2,8 +2,8 @@
 module.exports = {
   dest: './dist',
   repo: 'https://github.com/Chengyanzhao/VuePress',
-  title: 'Panda Cheng - Coding Workspace',
-  description: 'This is a personal blog of Cheng.',
+  title: 'Cheng',
+  description: 'Just some codes.',
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['link', { rel: 'bookmark', href: '/logo.ico' }]

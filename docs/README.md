@@ -1,34 +1,31 @@
 ---
 home: true
-heroImage: /hero.png
+# heroImage: /hero.png
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /paino/
 features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: 胡扯博客
+  details: 想到什么就写什么，不定期更新维护，不定期新增文章，入门程序员的自我修养。
+- title: 瞎整专栏
+  details: 技术博客的归档。强迫症，文档不归档还不如杀了我。
+- title: 乱弹钢琴
+  details: 大脑不想超频的时候有点事做，总不能闲着吧。
+footer: MIT Licensed | Copyright © 2018-present Cheng. Powered by VuePress.
 ---
 
-### As Easy as 1, 2, 3
+---
 
-``` bash
-# install
-yarn global add vuepress # OR npm install -g vuepress
+### TODO
 
-# create a markdown file
-echo '# Hello VuePress' > README.md
+* Vue源码
+* 公司产品
+* 钢琴 - 小汤、周杰伦曲子
+* 减肥 - 再瘦10斤
 
-# start writing
-vuepress dev
+---
 
-# build to static files
-vuepress build
-```
+### year progress
 
-::: warning COMPATIBILITY NOTE
-VuePress requires Node.js >= 8.
-:::
+<year-progress/>
+
+时间总是不等人，有时候又希望它走快一点。
