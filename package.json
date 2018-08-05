@@ -6,14 +6,15 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "gh-pages -d docs/.vuepress/dist",
-    "deploy:build": "npm run docs:build && gh-pages -d docs/.vuepress/dist"
+    "deploy": "gh-pages -d dist",
+    "deploy:build": "npm run docs:build && gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-plugin-component": "^1.1.1",
     "element-ui": "^2.4.5",
+    "gh-pages": "^1.2.0",
     "moment": "^2.22.2",
     "vuepress": "^0.13.0"
   }
