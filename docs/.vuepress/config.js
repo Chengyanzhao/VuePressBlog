@@ -1,7 +1,8 @@
 // config docs at https://vuepress.vuejs.org/zh/config
 module.exports = {
+  base: '/VuePressBlog',
   dest: './dist',
-  repo: 'https://github.com/Chengyanzhao/VuePress',
+  repo: 'https://github.com/Chengyanzhao/VuePressBlog',
   title: 'Cheng',
   description: 'Just some codes.',
   head: [
@@ -19,7 +20,14 @@ module.exports = {
         items: [
           { text: 'HTML', link: '/blog/HTML/' },
           { text: 'JavaScript', link: '/blog/JavaScript/' },
-          { text: '前端', link: '/blog/FE/' }
+          { text: 'CSS', link: '/blog/CSS/' },
+          { text: '前端', link: '/blog/FE/' },
+          { text: 'Vue', link: '/blog/Vue/' },
+          { text: '部署', link: '/blog/Deploy/' },
+          { text: '正则表达式', link: '/blog/Regexp/' },
+          { text: '兼容性', link: '/blog/Compatibility/' },
+          { text: '操作系统', link: '/blog/System/' },
+          { text: '其他', link: '/blog/Other/' }
         ]
       },
       { text: '专栏', link: '/column/' },
@@ -35,10 +43,50 @@ module.exports = {
       //   collapsable: false,
       //   children: ['./']
       // }],
+      '/blog/CSS/': [{
+        title: 'CSS',
+        collapsable: false,
+        children: ['', 'pseudo']
+      }],
       '/blog/FE/': [{
         title: '前端',
         collapsable: false,
         children: ['', 'browser-node-v8']
+      }],
+      '/blog/Vue/': [{
+        title: 'Vue记录',
+        collapsable: false,
+        children: ['', 'Record', 'history-api']
+      }],
+      '/blog/MongoDB/': [{
+        title: 'MongoDB',
+        collapsable: false,
+        children: ['']
+      }],
+      '/blog/Deploy/': [{
+        title: '部署',
+        collapsable: false,
+        children: ['', 'nssm', 'nginx']
+      }],
+      '/blog/Regexp/': [{
+        title: '部署',
+        collapsable: false,
+        children: ['', 'common']
+      }],
+      '/blog/Compatibility/': [{
+        title: '兼容性',
+        collapsable: false,
+        children: ['']
+      }],
+      '/blog/System/': [{
+        title: '操作系统',
+        collapsable: false,
+        children: ['', 'macOS']
+      }],
+      '/blog/Other/': [{
+        title: '其他',
+        collapsable: false,
+        children: ['', 'ali-oss']
       }],
       '/column/': [{
         title: '专栏',
