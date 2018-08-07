@@ -1,6 +1,6 @@
 // config docs at https://vuepress.vuejs.org/zh/config
 module.exports = {
-  base: '/VuePressBlog',
+  base: '/VuePressBlog/',
   dest: './dist',
   repo: 'https://github.com/Chengyanzhao/VuePressBlog',
   title: 'Cheng',
