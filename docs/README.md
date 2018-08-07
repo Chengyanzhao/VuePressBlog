@@ -19,13 +19,17 @@ footer: MIT Licensed | Copyright © 2018-present Cheng. Powered by VuePress.
 
 * Vue源码
 * 公司产品
-* 钢琴 - 小汤、周杰伦曲子
-* 减肥 - 再瘦10斤
+* 小汤1-5
+* 前端知识整理
+
+---
+
+### DONE
+
+* 小汤1
 
 ---
 
 ### year progress
 
 <year-progress/>
-
-时间总是不等人，有时候又希望它走快一点。
