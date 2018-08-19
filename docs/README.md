@@ -22,6 +22,18 @@ footer: MIT Licensed | Copyright © 2018-present Cheng. Powered by VuePress.
 * 小汤1-5
 * 前端知识整理
 
+#### PLAN(2018.08.01 - 2018.12.31)
+
+* 前端深度(源码阅读与理解)
+* 前端横向(测试、部署、优化）
+* 后端日志系统、分级日志（面向后端系统、接口、及业务操作日志）
+* HTTP、RESTFUL(特别是接口的HTTP status处理)
+* 前后端模块规范
+* 五线谱软件(web、IOS App、macOS APP、小程序、pwa)
+* 钢琴练习
+* 英语单词及语法(学完买的书)。
+* 英文文档阅读
+
 ---
 
 ### DONE
