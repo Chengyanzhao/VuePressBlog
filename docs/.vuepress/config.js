@@ -38,11 +38,11 @@ module.exports = {
     displayAllHeaders: true,
     // 侧边栏
     sidebar: {
-      // '/blog/': [{
-      //   title: '博客',
-      //   collapsable: false,
-      //   children: ['./']
-      // }],
+      '/blog/HTML/': [{
+        title: 'HTML',
+        collapsable: false,
+        children: ['','history-api']
+      }],
       '/blog/CSS/': [{
         title: 'CSS',
         collapsable: false,
