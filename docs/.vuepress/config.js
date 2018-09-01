@@ -46,7 +46,7 @@ module.exports = {
       '/blog/JavaScript/': [{
         title: 'JavaScript',
         collapsable: false,
-        children: ['', 'jsonp', 'hoisting', 'modules']
+        children: ['', 'jsonp', 'hoisting', 'modules', 'array-unique']
       }],
       '/blog/CSS/': [{
         title: 'CSS',
