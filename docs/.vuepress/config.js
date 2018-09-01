@@ -41,12 +41,12 @@ module.exports = {
       '/blog/HTML/': [{
         title: 'HTML',
         collapsable: false,
-        children: ['','history-api']
+        children: ['', 'history-api']
       }],
       '/blog/JavaScript/': [{
         title: 'JavaScript',
         collapsable: false,
-        children: ['','jsonp']
+        children: ['', 'jsonp', 'hoisting']
       }],
       '/blog/CSS/': [{
         title: 'CSS',
