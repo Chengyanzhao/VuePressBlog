@@ -43,6 +43,11 @@ module.exports = {
         collapsable: false,
         children: ['','history-api']
       }],
+      '/blog/JavaScript/': [{
+        title: 'JavaScript',
+        collapsable: false,
+        children: ['','jsonp']
+      }],
       '/blog/CSS/': [{
         title: 'CSS',
         collapsable: false,
