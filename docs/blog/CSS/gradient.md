@@ -67,6 +67,23 @@ W3C标准的兼容性：IE10+。
 
 <iframe width="100%" height="300" src="//jsfiddle.net/Chengyanzhao/r7cxsmoz/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
+## 重复渐变
+
+重复即在元素上绘制重复的渐变。  
+重复渐变也分为两种：重复线性渐变、重复径向渐变。
+
+### 重复线性渐变
+
+函数:`repeating-linear-gradient`，参数与线性渐变相同。
+
+<iframe width="100%" height="300" src="//jsfiddle.net/Chengyanzhao/s6gv3mfp/10/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+### 重复径向渐变
+
+函数:`repeating-radial-gradient`，参数与径向渐变相同。
+
+<iframe width="100%" height="300" src="//jsfiddle.net/Chengyanzhao/pfLhzu54/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
 ## 小结
 
 - CSS3渐变即是颜色的平滑过渡。
