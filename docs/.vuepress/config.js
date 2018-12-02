@@ -56,7 +56,7 @@ module.exports = {
       '/blog/CSS/': [{
         title: 'CSS',
         collapsable: false,
-        children: ['', 'pseudo', 'font-face', 'transform']
+        children: ['', 'pseudo', 'font-face', 'transform', 'gradient']
       }],
       '/blog/FE/': [{
         title: '前端',
