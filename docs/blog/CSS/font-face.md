@@ -91,3 +91,4 @@
 1. [Iconfont](http://www.iconfont.cn/)
 2. [IcoMoon](https://icomoon.io/)
 3. [Font Awesome](http://www.fontawesome.com.cn/)
+4. [Feather](https://feathericons.com/)
