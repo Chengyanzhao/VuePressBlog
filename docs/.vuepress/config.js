@@ -21,6 +21,7 @@ module.exports = {
           { text: 'HTML', link: '/blog/HTML/' },
           { text: 'JavaScript', link: '/blog/JavaScript/' },
           { text: 'CSS', link: '/blog/CSS/' },
+          { text: 'DOM', link: '/blog/DOM/' },
           { text: '前端', link: '/blog/FE/' },
           { text: 'Vue', link: '/blog/Vue/' },
           { text: '部署', link: '/blog/Deploy/' },
@@ -56,7 +57,12 @@ module.exports = {
       '/blog/CSS/': [{
         title: 'CSS',
         collapsable: false,
-        children: ['', 'pseudo', 'font-face', 'transform', 'gradient', 'transition']
+        children: ['', 'pseudo', 'font-face', 'border','gradient', 'transform', 'transition']
+      }],
+      '/blog/DOM/': [{
+        title: 'DOM',
+        collapsable: false,
+        children: ['', 'attribute and property']
       }],
       '/blog/FE/': [{
         title: '前端',
