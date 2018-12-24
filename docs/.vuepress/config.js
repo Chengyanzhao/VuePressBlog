@@ -57,7 +57,7 @@ module.exports = {
       '/blog/CSS/': [{
         title: 'CSS',
         collapsable: false,
-        children: ['', 'pseudo', 'font-face', 'border','gradient', 'transform', 'transition']
+        children: ['', 'pseudo', 'font-face', 'background','border','gradient', 'transform', 'transition']
       }],
       '/blog/DOM/': [{
         title: 'DOM',
