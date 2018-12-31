@@ -38,6 +38,7 @@ module.exports = {
         ]
       },
       { text: '钢琴', link: '/paino/' },
+      { text: '闲扯', link: '/chitchat/' },
       { text: '关于', link: '/about/' }
     ],
     sidebarDepth: 2,
@@ -56,8 +57,8 @@ module.exports = {
       }],
       '/blog/CSS/': [{
         title: 'CSS',
-        collapsable: false,
-        children: ['', 'pseudo', 'font-face', 'background','border','gradient', 'transform', 'transition']
+        collapsable: true,
+        children: ['', 'pseudo', 'font-face', 'background', 'border', 'gradient', 'transform', 'transition']
       }],
       '/blog/DOM/': [{
         title: 'DOM',
@@ -122,6 +123,11 @@ module.exports = {
         title: '关于',
         collapsable: false,
         children: ['']
+      }],
+      '/chitchat/': [{
+        title: '闲扯',
+        collapsable: false,
+        children: [ '2018总结']
       }]
     }
   },
