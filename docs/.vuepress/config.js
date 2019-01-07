@@ -31,12 +31,12 @@ module.exports = {
           { text: '其他', link: '/blog/Other/' }
         ]
       },
-      {
-        text: '专栏',
-        items: [
-          { text: '前端入门', link: '/column/juniorclass/' }
-        ]
-      },
+      // {
+      //   text: '专栏',
+      //   items: [
+
+      //   ]
+      // },
       { text: '钢琴', link: '/paino/' },
       { text: '闲扯', link: '/chitchat/' },
       { text: '关于', link: '/about/' }
@@ -53,7 +53,7 @@ module.exports = {
       '/blog/JavaScript/': [{
         title: 'JavaScript',
         collapsable: false,
-        children: ['', 'jsonp', 'hoisting', 'modules', 'array-unique', 'promise']
+        children: ['', 'jsonp', 'hoisting', 'modules', 'array-unique', 'promise', 'prototype and constructor']
       }],
       '/blog/CSS/': [{
         title: 'CSS',
@@ -105,11 +105,6 @@ module.exports = {
         collapsable: false,
         children: ['', 'ali-oss']
       }],
-      '/column/juniorclass/': [{
-        title: '前端入门',
-        collapsable: false,
-        children: ['', 'FE']
-      }],
       '/paino/': [{
         title: '钢琴',
         collapsable: false,
@@ -127,7 +122,7 @@ module.exports = {
       '/chitchat/': [{
         title: '闲扯',
         collapsable: false,
-        children: [ '2018总结']
+        children: ['2018总结', 'Reminder']
       }]
     }
   },
