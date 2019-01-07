@@ -1,6 +1,6 @@
 # CSS3边框
 
-## 4. 圆角边框
+## 1. 圆角边框
 
 在CSS3中使用`border-radius`来设置元素圆角。
 
@@ -32,7 +32,7 @@
 
 <iframe width="100%" height="300" src="//jsfiddle.net/Chengyanzhao/cea16Lo8/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
-## 5. 盒子阴影
+## 2. 盒子阴影
 
 在CSS3中使用`box-shadow`来设置盒子阴影。
 
@@ -61,7 +61,7 @@
 
 `box-shadow`不会影响盒模型的布局，浏览器计算布局时，会忽略阴影的扩展半径。
 
-## 其他
+## 3. 其他
 
 在图片元素上设置内阴影将无效。
 
