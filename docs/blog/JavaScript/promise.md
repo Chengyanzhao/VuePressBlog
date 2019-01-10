@@ -1,108 +1,26 @@
 # Promise
 
-Promise是异步变成的解决方案，旨在解决异步编程回调地狱的问题。  
-Promise最早由社区最早提出和实现，ES6将其写进了语言标准，统一了用法，原生提供了`Promise`对象。在ES5中也有`polyfill`对其支持，所以不使用ES6的伙计也不用担心因浏览器兼容性而无法使用Promise。
+Promise是异步编程的解决方案，旨在解决异步编程回调地狱的问题。  
+Promise最早由社区最早提出和实现，ES6将其写进了语言标准，统一了用法，原生提供了`Promise`对象。在ES5中也有`polyfill`对其支持，所以不使用ES6的伙计也不用担心因浏览器兼容性而无法使用Promise。  
+网上关于Promise的文章已经很多了，ES6的文档中也有详尽的说明，所以这边文章不写这些已经被大家吃的很透的内容。咱们来分析分析Promise使用中的一些问题。
 
 ## 关于Promise,promise,promises
+
+网上文章中一般默认如下表示：
 
 * Promise: 代表Promise接口
 * promise: 代表promise实例对象
 * promises: 代表Promises规范
 
-## 简介
+## 使用中的问题
 
-Promise因异步而生，所以介绍Promise就以异步操作为入口。  
-在Promise出现之前，如果我们需要依赖一个异步操作的结果进行下一个异步操作，比如嵌套的`ajax`请求，代码会写成这样：
+首先总结下Promise的几个特点：
 
-```javascript
-// 执行第一个异步请求
-$.ajax({
-  // options
-  success:function(data1){
-    // 获取结果，执行第二个异步请求
-    $.ajax({
-      // options
-      data:data1,
-      success:function(data2){
-        // do something
-      }
-    })
-  }
-})
-```
+1. Promise可将异步过程包装，多个promise可以像管道一样连接，写法更优雅。
+2. 在ES6中，Promise可配合`await/async`将异步过程写成同步代码。（注意，此时主线程并没有被占用。）
+3. Promise中可以灵活运用`catch`，`catch`后同样返回`promise`对象，可继续执行`then`。
+4. Promise一旦创建就会立即执行，无法取消。
 
-由于第二个请求的参数需要依赖第一个请求的结果，所以需要等到第一个请求返回结果时，才能在第一个请求的回调中构造第二个请求。
-这样两个请求的代码就形成了嵌套。  
-如果有n个这种依赖的请求，就需要嵌套n层代码，这样的代码乱成一团，不易维护。
-这里有同学会提出，那我用同步请求如何？同步请求会阻塞代码执行，如果涉及到页面渲染，用户很有可能需要等到执行完成才能操作页面，极大的降低了用户体验，很可能与需求不符合，所非特殊情况不建议使用同步请求。
-
-改用Promise：
-
-```javascript
-new Promise(resolve=>{
-  $.ajax({
-    // options
-    success:function(data1){
-      resolve(data1)
-    }
-  })
-}).then(data1=>{
-   $.ajax({
-    // options
-    data:data1,
-    success:function(data2){
-      resolve(data2)
-    }
-  })
-}).then(data=>{
-  // do something
-})
-```
-
-使用Promise后我们把每个回调都拆分开，使用`then`将他们连接起来，代码逻辑更清晰。
-
-## API
-
-### Promise constructor
-
-Promise构造函数接收两个参数，`resolve`和`reject`。  
-`resolve`对应异步操作完成的函数，`reject`对应异步操作失败的函数。
-
-```javascript
-const promise = new Promise((resolve, reject)=>{
-  const syncSuccess = true
-  if(syncSuccess){
-    const data = {}
-    resolve(data)
-  }else{
-    reject(new Error('错误'))
-  }
-})
-
-promise.then(data=>{
-  // do something success
-}).catch(error=>{
-  // do something error
-})
-```
-
-### Promise.all
-
-### Promise.prototype.catch()
-
-### Promise.prototype.finally()
-
-### Promise.prototype.then()
-
-### Promise.race()
-
-### Promise.reject()
-
-### Promise.resolve()
-
-## 应用
-
-## ES5实现
 
 ## try/catch与Promise
 
@@ -122,20 +40,7 @@ try{
 
 如果你在浏览器中运行这段代码，浏览器会报错`Uncaught (in promise) 错误`。  
 疑问来了，为什么我已经将`reject`放在`try`块中，而捕捉不到？  
-实际上**拒绝是发生在未来**，而不是执行`Promise.reject('错误')`时。所以当这行代码执行完毕，`try`块内的代码已正常执行完成，所以不会进入`catch`。
-
-将代码改成下面这样可能会更好理解一些：
-
-```js
-try{
-  Promise.reject('错误').catch(error=>{
-    console.log(error)
-  })
-}catch(error){
-  console.log('error')
-}
-```
-
+实际上**拒绝是发生在未来**，而不是执行`Promise.reject('错误')`时。所以当这行代码执行完毕，`try`块内的代码已正常执行完成，所以不会进入`catch`。  
 所以在使用Promise时请慎重，不要试图使用`try/catch`去捕捉`reject`。
 
 ## Reference
