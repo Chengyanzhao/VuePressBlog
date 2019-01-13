@@ -53,7 +53,7 @@ module.exports = {
       '/blog/JavaScript/': [{
         title: 'JavaScript',
         collapsable: false,
-        children: ['', 'jsonp', 'hoisting', 'modules', 'array-unique', 'promise', 'prototype and constructor']
+        children: ['', 'jsonp', 'hoisting', 'modules', 'array-unique', 'promise', 'prototype and constructor', 'inherit']
       }],
       '/blog/CSS/': [{
         title: 'CSS',
