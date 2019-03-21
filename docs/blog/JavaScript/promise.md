@@ -202,8 +202,10 @@ Promise.resolve('foo').then(()=>{
 ## Promise的缺点
 
 1. 一旦执行，无法中断。
+
 ## Reference
 
 1. [ECMAScript 6 入门 - Promise 对象 - 阮一峰](http://es6.ruanyifeng.com/#docs/promise#Promise-%E7%9A%84%E5%90%AB%E4%B9%89)
 2. [MDN - Promise](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 3. [谈谈使用promise时候的一些反模式](https://www.tuicool.com/articles/FvyQ3a)
+4. [30分钟，让你彻底明白Promise原理](https://segmentfault.com/a/1190000009478377#articleHeader8)
