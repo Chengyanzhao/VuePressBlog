@@ -6,7 +6,7 @@ HTTP对于网络交互来说是必不可少的，这不限于你是否是前端�
 
 在本章内容中我会记载今后的学习中遇到的HTTP相关知识，补充HTTP相关知识。这是我学习的check，也希望能帮助渴望学习相关知识的同学。
 
-## 1.HTTP协议
+## 1. HTTP协议
 
 1. **HTTP(HyperText Transfer Protocol)**：超文本传输协议。
 2. HTTP协议的版本
@@ -15,7 +15,7 @@ HTTP对于网络交互来说是必不可少的，这不限于你是否是前端�
     - HTTP/2：最初命名为HTTP/2.0，2015年5月已RFC7540正式发表，只用于https://的网址。HTTP/2 采用了新的方法来编码、传输客户端——服务器间的数据。
 3. HTTP协议基于TCP/IP协议族。TCP协议是双向通道，HTTP协议在TCP协议基础上规定了Request-Response的模式。
 
-## 2.HTTP报文结构
+## 2. HTTP报文结构
 
 请求报文：
 
@@ -36,7 +36,7 @@ URI是某个协议方案表示的资源的定位标识符，用于标识资源�
 
 比如我们在浏览器中输入的url：`www.github.com`
 
-## 4.方法 Methods
+## 4. 方法 Methods
 
 1. GET：语义约定获取资源，使用GET的请求应该只被用于获取数据。通过浏览器地址访问产生的都是GET方法。
 2. POST：语义约定更新资源，用于将实体提交到指定的资源，通常导致状态或服务器上的副作用的更改。
@@ -50,7 +50,7 @@ URI是某个协议方案表示的资源的定位标识符，用于标识资源�
 
 更多信息请查看[规范](https://tools.ietf.org/html/rfc7231#section-4)
 
-## 5.状态码 Status Code
+## 5. 状态码 Status Code
 
 - 1xx：临时回应，表示客户端请继续。
 - 2xx：请求成功。
@@ -69,7 +69,7 @@ URI是某个协议方案表示的资源的定位标识符，用于标识资源�
 
 上面只列部分状态码，[点击这里](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)查看全部状态码。
 
-## 6.首部字段 Head
+## 6. 首部字段 Head
 
 HTTP首部字段可以看做是一系列键值对，实际上HTTP首部字段也是一种数据，我们可以自定义键和值，不过在HTTP规范中规定了一些特殊的首部字段。
 
@@ -117,7 +117,7 @@ Content-Type常用类型：
 - multipart/form-data
 - text/html
 
-## 7.TCP/IP
+## 7. TCP/IP
 
 TCP/IP协议族按层次分别分为以下4层：
 
@@ -134,7 +134,7 @@ TCP/IP协议族按层次分别分为以下4层：
 
 ![各协议之间的关系.png](https://i.loli.net/2019/03/31/5c9f9ffad86c7.png)
 
-## 7.HTTPS
+## 8. HTTPS
 
 HTTP协议虽然好用，但在安全方面有以下不足：
 
@@ -156,7 +156,7 @@ HTTPS有两个作用，一是确定请求的目标服务器身份，二是保证
 
 关于HTTPS的标准，请查看[rfc2818](https://tools.ietf.org/html/rfc2818)
 
-## 8.HTTP2
+## 9. HTTP2
 
 HTTP2是HTTP1.1的升级版本，目标是改善用户在使用Web时的速度体验。
 
@@ -167,7 +167,7 @@ HTTP2最大的改进有两点：
 
 关于HTTP2的标准，请查看[rfc7540](https://tools.ietf.org/html/rfc7540)
 
-## 9.学习资源推荐
+## 10. 学习资源推荐
 
 1. 《图解HTTP》【日】上野宣 著，于均良 译。
 2. [HTTP | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)
