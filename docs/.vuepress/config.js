@@ -32,14 +32,7 @@ module.exports = {
         //   { text: '其他', link: '/blog/Other/' }
         // ]
       },
-      // {
-      //   text: '专栏',
-      //   items: [
-
-      //   ]
-      // },
       { text: '钢琴', link: '/paino/' },
-      { text: '闲扯', link: '/chitchat/' },
       { text: '关于', link: '/about/' }
     ],
     // sidebarDepth: 2,
@@ -187,11 +180,6 @@ module.exports = {
         collapsable: false,
         children: ['']
       }],
-      '/chitchat/': [{
-        title: '闲扯',
-        collapsable: false,
-        children: ['2018总结', 'Reminder']
-      }]
     }
   },
   // 浏览器兼容性
