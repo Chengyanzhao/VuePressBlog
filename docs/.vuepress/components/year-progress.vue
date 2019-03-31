@@ -14,8 +14,7 @@
       <span class="digit">{{time.second}}</span>
     </p>
     <el-progress :text-inside="true" :stroke-width="18" :percentage="percentage" status="success"></el-progress>
-    <p class="date-end">时间总是不等人，但希望走快一点。</p>
-  </div>
+    </div>
 </template>
 
 <script>
