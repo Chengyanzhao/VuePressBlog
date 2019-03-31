@@ -1,10 +1,10 @@
 // config docs at https://vuepress.vuejs.org/zh/config
 module.exports = {
-  base: '/VuePressBlog/',
+  base: '/',
   dest: './dist',
   repo: 'https://github.com/Chengyanzhao/VuePressBlog',
   title: 'Cheng',
-  description: 'Just some codes.',
+  description: '记录一个代码搬运工从茂密到秃头的心酸之路。',
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['link', { rel: 'bookmark', href: '/logo.ico' }]
@@ -63,9 +63,20 @@ module.exports = {
             '/blog/JavaScript/hoisting',
             '/blog/JavaScript/modules',
             '/blog/JavaScript/array-unique',
-            '/blog/JavaScript/promise',
+            '/blog/JavaScript/Promise',
             '/blog/JavaScript/prototype and constructor',
-            '/blog/JavaScript/inherit']
+            '/blog/JavaScript/inherit',
+            '/blog/JavaScript/事件循环与消息队列',
+            '/blog/JavaScript/函数的去抖与节流',
+          ]
+        },
+        // es6
+        {
+          title: 'ES6',
+          children: [
+            '/blog/ES6/1.let与const',
+            '/blog/ES6/2.变量的解构赋值'
+          ]
         },
         // css
         {
@@ -78,6 +89,13 @@ module.exports = {
             '/blog/CSS/gradient',
             '/blog/CSS/transform',
             '/blog/CSS/transition']
+        },
+        // Net
+        {
+          title: 'Net',
+          children: [
+            '/blog/Net/HTTP协议'
+          ]
         },
         // dom
         {
@@ -109,12 +127,15 @@ module.exports = {
         //   ]
         // },
         // mongodb
-        // {
-        //   title: 'MongoDB',
-        //   children: [
-        //     '/blog/MongoDB/'
-        //   ]
-        // },
+        {
+          title: 'MongoDB',
+          children: [
+            '/blog/MongoDB/',
+            '/blog/MongoDB/query',
+            '/blog/MongoDB/update',
+            '/blog/MongoDB/数组更新操作'
+          ]
+        },
         // Deploy
         {
           title: '部署',
