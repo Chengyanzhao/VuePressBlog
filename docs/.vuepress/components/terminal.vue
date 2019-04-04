@@ -17,7 +17,7 @@
 <script>
 import Prism from 'prismjs'
 import components from 'prismjs/components.js'
-import 'prismjs/themes/prism-dark.css'
+
 const bashText = `
 FE -ls
 > HTML
@@ -78,6 +78,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .terminal {
   margin: 0 auto;
   width: 500px;
@@ -117,4 +118,8 @@ export default {
     overflow-y: auto;
   }
 }
+</style>
+
+<style scoped>
+@import '/node_modules/prismjs/themes/prism-dark.css';
 </style>
