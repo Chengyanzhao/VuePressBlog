@@ -3,11 +3,26 @@
 CSS3变形允许动态控制元素，可以移动、放大缩小、旋转元素。
 主要分为2D变形和3D变形。
 
-## transform-origin 变换原点
+## 变形属性
 
-transform中的变形都需要有一个变换原点，此默认原点由`transform-origin`属性提供。  
-初始值为`50% 50% 0`，也就是以元素中点为原点。  
+- transform
+- transform-origin
+- transform-style
+- perspective
+- perspective-origin
+- backface-visibility
+
+### transform
+
+变形属性，值为一个或多个移动、缩放、旋转、倾斜等变形函数。当值为多个变形函数时，用逗号隔开，而非空格。  
+元素根据自身`transform-origin`作为元素变形原点。
+
+### transform-origin
+
+元素变形原点，初始值为`50% 50% 0`，也就是以元素中点为原点。  
 [查看更多](https://cloud.tencent.com/developer/section/1072453)
+
+## transform-style
 
 ## translate 移动
 
