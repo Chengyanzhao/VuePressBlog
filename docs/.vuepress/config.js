@@ -99,13 +99,14 @@ module.exports = {
             '/blog/Vue/history-api'
           ]
         },
-        // react
-        // {
-        //   title: 'React',
-        //   children: [
-        //     '/blog/React/'
-        //   ]
-        // },
+        // Node & Npm
+        {
+          title: 'Node/Npm',
+          children: [
+            '/blog/Node/nvm',
+            '/blog/Node/npm命令',
+          ]
+        },
         // mongodb
         {
           title: 'MongoDB',
@@ -124,20 +125,6 @@ module.exports = {
             '/blog/Deploy/nginx'
           ]
         },
-        // regexp
-        // {
-        //   title: '正则表达式',
-        //   children: [
-        //     '/blog/Regexp/common'
-        //   ]
-        // }
-        // Compatibility
-        // {
-        //   title: '兼容性',
-        //   children: [
-        //     '/blog/Compatibility/'
-        //   ]
-        // }
         // os
         {
           title: '操作系统',
