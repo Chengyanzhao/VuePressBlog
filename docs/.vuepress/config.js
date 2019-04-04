@@ -17,20 +17,7 @@ module.exports = {
       { text: '首页', link: '/' },
       {
         text: '博客',
-        link: '/blog/',
-        // items: [
-        //   { text: 'HTML', link: '/blog/HTML/' },
-        //   { text: 'JavaScript', link: '/blog/JavaScript/' },
-        //   { text: 'CSS', link: '/blog/CSS/' },
-        //   { text: 'DOM', link: '/blog/DOM/' },
-        //   { text: '前端', link: '/blog/FE/' },
-        //   { text: 'Vue', link: '/blog/Vue/' },
-        //   { text: '部署', link: '/blog/Deploy/' },
-        //   { text: '正则表达式', link: '/blog/Regexp/' },
-        //   { text: '兼容性', link: '/blog/Compatibility/' },
-        //   { text: '操作系统', link: '/blog/System/' },
-        //   { text: '其他', link: '/blog/Other/' }
-        // ]
+        link: '/blog',
       },
       { text: '钢琴', link: '/paino/' },
       { text: '关于', link: '/about/' }
