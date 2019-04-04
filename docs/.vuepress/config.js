@@ -90,7 +90,8 @@ module.exports = {
           title: 'Vue',
           children: [
             '/blog/Vue/Record',
-            '/blog/Vue/history-api'
+            '/blog/Vue/history-api',
+            '/blog/Vue/vue-cli'
           ]
         },
         // Node & Npm
