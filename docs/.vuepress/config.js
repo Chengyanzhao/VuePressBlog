@@ -48,14 +48,8 @@ module.exports = {
             '/blog/JavaScript/inherit',
             '/blog/JavaScript/事件循环与消息队列',
             '/blog/JavaScript/函数的去抖与节流',
-          ]
-        },
-        // es6
-        {
-          title: 'ES6',
-          children: [
-            '/blog/ES6/1.let与const',
-            '/blog/ES6/2.变量的解构赋值'
+            '/blog/JavaScript/es6-let与const',
+            '/blog/JavaScript/es6-变量的解构赋值',
           ]
         },
         // css
