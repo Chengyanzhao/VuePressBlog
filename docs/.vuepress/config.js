@@ -125,11 +125,15 @@ module.exports = {
             '/blog/Deploy/nginx'
           ]
         },
-        // os
+        // tools
         {
-          title: '操作系统',
+          title: '工具/系统',
           children: [
-            '/blog/System/macOS'
+            '/blog/Tools/MacOS',
+            '/blog/Tools/Linux',
+            '/blog/Tools/Windows',
+            '/blog/Tools/vscode',
+            '/blog/Tools/Chrome',
           ]
         },
         // others
