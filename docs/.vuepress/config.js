@@ -31,9 +31,12 @@ module.exports = {
         '/blog/',
         // html
         {
-          title: 'HTML',
+          title: 'WebAPI',
           collapsable: true,
-          children: ['/blog/HTML/history-api']
+          children: [
+            '/blog/WebAPI/history-api',
+            '/blog/WebAPI/attribute-and-property'
+          ]
         },
         // js
         {
@@ -69,13 +72,6 @@ module.exports = {
           title: 'Net',
           children: [
             '/blog/Net/HTTP协议'
-          ]
-        },
-        // dom
-        {
-          title: 'DOM',
-          children: [
-            '/blog/DOM/attribute and property'
           ]
         },
         // fe
