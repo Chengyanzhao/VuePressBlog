@@ -32,13 +32,14 @@ module.exports = {
     sidebar: {
       '/blog/': [
         '/blog/',
-        // html
+        // WebAPI
         {
           title: 'WebAPI',
           collapsable: true,
           children: [
             '/blog/WebAPI/history-api',
-            '/blog/WebAPI/attribute-and-property'
+            '/blog/WebAPI/attribute-and-property',
+            '/blog/WebAPI/XMLHttpRequest',
           ]
         },
         // js
