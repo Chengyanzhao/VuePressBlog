@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import Prism from 'prismjs'
-import components from 'prismjs/components.js'
+// import Prism from 'prismjs'
+// import components from 'prismjs/components.js'
 
 const bashText = `
 FE -ls
@@ -121,5 +121,5 @@ export default {
 </style>
 
 <style scoped>
-@import '/node_modules/prismjs/themes/prism-dark.css';
+/* @import '/node_modules/prismjs/themes/prism-dark.css'; */
 </style>

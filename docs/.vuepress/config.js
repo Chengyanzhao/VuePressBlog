@@ -83,7 +83,8 @@ module.exports = {
         {
           title: '前端',
           children: [
-            '/blog/FE/browser-node-v8'
+            '/blog/FE/browser-node-v8',
+            '/blog/FE/use-post-downloadfile',
           ]
         },
         // vue
