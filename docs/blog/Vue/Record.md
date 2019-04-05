@@ -15,16 +15,23 @@ Unhandled promise rejection ReferenceError: “Promise”未定义
 
 * 解决办法
 
-使用`Promise`polyfill
+安装`babel-polyfill`模块，在项目`main.js`中引用，或者在webpack中配置。
 
-安装`babel-polyfill`模块，并在项目`main.js`中引用
-
-``` shell
-$ npm i babel-polyfill -S
+``` bash
+npm i babel-polyfill -S
 ```
 
-``` javascript
+``` js
 import 'babel-polyfill'
 import Vue from 'Vue'
 // other codes
+```
+
+``` js
+// webpack config
+module.exports = {
+  entry: {
+    app: ['babel-polyfill', './app/js']
+  }
+}
 ```
