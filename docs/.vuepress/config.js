@@ -17,7 +17,7 @@ module.exports = {
       { text: '首页', link: '/' },
       {
         text: '博客',
-        link: '/blog',
+        link: '/blog/',
       },
       { text: '钢琴', link: '/paino/' },
       { text: '关于', link: '/about/' }
