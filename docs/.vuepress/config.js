@@ -54,6 +54,7 @@ module.exports = {
             '/blog/JavaScript/inherit',
             '/blog/JavaScript/事件循环与消息队列',
             '/blog/JavaScript/函数的去抖与节流',
+            '/blog/JavaScript/Axios',
             '/blog/JavaScript/es6-let与const',
             '/blog/JavaScript/es6-变量的解构赋值',
           ]
