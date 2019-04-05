@@ -2,7 +2,6 @@
 module.exports = {
   base: '/',
   dest: './dist',
-  repo: 'https://github.com/Chengyanzhao/VuePressBlog',
   title: 'Cheng',
   description: '记录一个代码搬运工从茂密到秃头的心酸之路。',
   head: [
@@ -11,7 +10,11 @@ module.exports = {
   ],
   ga: 'UA-118983152-1',
   themeConfig: {
-    repo: 'https://github.com/Chengyanzhao/VuePressBlog.git',
+    repo: 'https://chengyanzhao.github.io/',
+    docsRepo: 'https://github.com/Chengyanzhao/VuePressBlog/',
+    docsDir: 'docs',
+    editLinks: true,
+    editLinkText: '帮助我们改善此页面！',
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
