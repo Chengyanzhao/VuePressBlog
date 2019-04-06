@@ -22,20 +22,57 @@
 
 ``` js
 // deps: axios https://github.com/axios/axios
+import axios from 'axios'
+
 const url = '/download'
-function download(url,data){
-  axios({
-    method:'POST',
-    url,
-data,
-responseType:'blob'
+const data = {
+  // ...
+}
+
+axios({
+  method: 'POST',
+  url,
+  data,
+  responseType: 'blob'
+}).then(res => {
+  const blob = res.data
+  // 转为url
+  const objectURL = URL.createObjectURL(blob)
+  // 通过a标签下载
+  const aLink = document.createElement('a')
+  aLink.href = objectURL
+  // 设置下载文件名
+  aLink.download = 'filename.ext'
+  const evt = new Event('click')
+  aLink.dispatchEvent(evt)
+  URL.revokeObjectURL(objectURL)
+})
+```
+
+如果使用IE浏览器，不支持`URL`，可以使用以下函数将blob转为url：
+
+``` js
+function blob2Url (blob) {
+  return new Promise((resolve, reject) => {
+    if (!URL) {
+      resolve(URL.createObjectURL(blob))
+    } else {
+      const reader = new FileReader()
+      reader.addEventListener('load', () => {
+        resolve(reader.result)
+      }, false)
+      reader.addEventListener('error', (err) => {
+        reject(err)
+      })
+      reader.readAsDataURL(blob)
+    }
   })
 }
 ```
 
-## 如何获取Blob的响应结果
+## 关于获取Blob的响应结果
 
-实际上，我们不应获取到结果再转换成Blob，而是在请求时设置我们需要相应数据的类型。我在另一片文章也简单写过这个内容，您可以[点击这里](/blog/WebAPI/XMLHttpRequest/#设置响应数据类型-responsetype)查看。  
+实际上，我们不应获取到结果再转换成Blob，而是在请求时设置我们需要相应数据的类型。我在另一片文章也简单写过这个内容，您可以[点击这里](/blog/WebAPI/XMLHttpRequest.html#设置响应数据类型-responsetype)查看。  
 所以在请求时，需要设置XMLHTTPRequest对象的responseType属性，当需要Blob时，这样设置即可：
 
 ``` js
