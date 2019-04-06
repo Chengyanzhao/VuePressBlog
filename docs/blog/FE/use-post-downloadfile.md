@@ -80,3 +80,10 @@ request.responseType = 'blob'
 ```
 
 如果您使用的是jQuery.ajax、axios等库，也不用担心，因为他们都是对`XMLHTTPResuest`的封装，他们必定会提供相应接口来设置这个参数。
+
+## 小结
+
+- 其实这种在前端下载文件的方式不止适用POST，使用GET也是一样，因为它的重点在于请求Blob对象，然后转为url，再通过a标签的能力去下载。
+- 有两种将Blob转为url的方式，所以针对此处的兼容性也是比较好处理的：
+  1. 通过URL API
+  2. 通过FileReader API
