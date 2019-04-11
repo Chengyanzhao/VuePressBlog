@@ -21,3 +21,9 @@
 [Demo](http://ricostacruz.com/nprogress/)
 
 ![NProgress.png](https://i.loli.net/2019/04/09/5cac522c9ba66.png)
+
+## encode
+
+### node-uuid
+
+[uuid](https://github.com/kelektiv/node-uuid)简单，快速生成RFC4122 uuid。
