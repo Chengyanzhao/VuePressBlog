@@ -22,6 +22,7 @@ module.exports = {
         text: '博客',
         link: '/blog/',
       },
+      { text: '资源', link: '/resource/' },
       { text: '钢琴', link: '/paino/' },
       { text: '关于', link: '/about/' }
     ],
@@ -124,7 +125,7 @@ module.exports = {
         },
         // tools
         {
-          title: '工具/系统',
+          title: '软件/系统',
           children: [
             '/blog/Tools/MacOS',
             '/blog/Tools/Linux',
@@ -141,6 +142,16 @@ module.exports = {
           ]
         }
       ],
+      '/resource/': [{
+        title: '资源',
+        collapsable: false,
+        children: [
+          '',
+          'tool',
+          'npm-package',
+          // 'eslint',
+          'Icon']
+      }],
       '/paino/': [{
         title: '钢琴',
         collapsable: false,
