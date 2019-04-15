@@ -19,3 +19,7 @@
 1. ESLint：ESLint检查
 2. Vetur：VSCode的vue工具，方便编写vue代码。
 3. VSCode Great Icons：为文件增加图标。
+
+## VS Codium
+
+[VS Codium](https://vscodium.com)是VS Code的平行版本，其推出的目的是针对VS Code的这条声明：“VS Code收集使用数据并将其发送给 Microsoft 以帮助改进我们的产品和服务。阅读我们的隐私声明以了解更多信息”。而VS Codium剔除了可能侵犯你隐私的功能。 ​​​​
