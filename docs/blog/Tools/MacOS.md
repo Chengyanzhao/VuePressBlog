@@ -22,9 +22,11 @@
 ## 常用命令
 
 1. 打开Finder：`$ open [path]`
-2. 强制退出应用程序窗口: Command+Option+Shift+Esc
+2. 查看端口占用：`$ sudo lsof -i :[port]`
+3. 停止某服务：`$ sudo kill -9 [PID]`
 
 ## 快捷键
 
 1. 通用快捷键-打开设置：`⌘ + ,`
 2. 通用快捷键-清除终端：`⌘ + k`，适用于所有终端。
+3. 强制退出当前应用程序窗口: Command+Option+Shift+Esc
