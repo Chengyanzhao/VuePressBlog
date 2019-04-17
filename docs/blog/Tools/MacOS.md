@@ -18,6 +18,7 @@
 1. 打字音效：[Tickeys](http://www.yingdev.com/projects/tickeys)。
 2. 显示软件快捷键：[CheatSheet](https://www.mediaatelier.com/CheatSheet/)。长按`⌘`使用。
 3. 系统状态监控：[iStat Menus](https://bjango.com/mac/istatmenus/)。
+4. 一个可以在终端（iTerm 或 Hyper）中打开当前目录的访达工具栏应用程序：[OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal/blob/master/README-zh.md)
 
 ## 常用命令
 
