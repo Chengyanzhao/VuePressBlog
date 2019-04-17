@@ -150,7 +150,9 @@ module.exports = {
           'tool',
           'npm-package',
           // 'eslint',
-          'Icon']
+          'Icon',
+          'resource'
+        ]
       }],
       '/paino/': [{
         title: '钢琴',
