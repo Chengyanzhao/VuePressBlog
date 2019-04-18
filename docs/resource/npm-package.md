@@ -31,3 +31,11 @@
 ### node-uuid
 
 [uuid](https://github.com/kelektiv/node-uuid)简单，快速生成RFC4122 uuid。
+
+## NodeJS
+
+### colors.js
+
+[colors.js](https://www.npmjs.com/package/colors)在node.js控制台中获取颜色和样式。
+
+[![example](https://raw.githubusercontent.com/Marak/colors.js/master/screenshots/colors.png)]
