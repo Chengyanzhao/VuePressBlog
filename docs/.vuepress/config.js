@@ -18,10 +18,8 @@ module.exports = {
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      {
-        text: '博客',
-        link: '/blog/',
-      },
+      { text: '博客', link: '/blog/' },
+      { text: 'Flutter', link: '/flutter/' },
       { text: '资源', link: '/resource/' },
       { text: '钢琴', link: '/paino/' },
       { text: '关于', link: '/about/' }
@@ -152,6 +150,14 @@ module.exports = {
           // 'eslint',
           'Icon',
           'resource'
+        ]
+      }],
+      '/flutter/': [{
+        title: 'Flutter',
+        collapsable: false,
+        children: [
+          // '',
+          'quick-table'
         ]
       }],
       '/paino/': [{
