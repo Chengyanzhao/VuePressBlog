@@ -2,24 +2,24 @@
 
 ## 设置
 
-1. 设置tab缩进：`"editor.tabSize": 2`
+- 设置tab缩进：`"editor.tabSize": 2`
 
 ## 快捷键
 
-1. 打开键盘快捷方式：`⌘ + k, ⌘ + s`
-2. 标签页切换：
+- 打开键盘快捷方式：`⌘ + k, ⌘ + s`
+- 标签页切换：
     - 上一个标签页：`⌘ + ⇧ + [`
     - 下一个标签页：`⌘ + ⇧ + ]`
     - 打开指定标签页：`⌃ + [number]`（索引从1开始）
-3. 切换语言模式：`⌘ + k, m`
-4. 在Finder中打开项目根目录：`⌘ + ⇧ + c`
-5. 显示/隐藏下方面板：`⌘ + J`
+- 切换语言模式：`⌘ + k, m`
+- 在Finder中打开项目根目录：`⌘ + ⇧ + c`
+- 显示/隐藏下方面板：`⌘ + J`
 
 ## 扩展
 
-1. ESLint：ESLint检查
-2. Vetur：VSCode的vue工具，方便编写vue代码。
-3. VSCode Great Icons：为文件增加图标。
+- ESLint：ESLint检查
+- Vetur：VSCode的vue工具，方便编写vue代码。
+- VSCode Great Icons：为文件增加图标。
 
 ## VS Codium
 
