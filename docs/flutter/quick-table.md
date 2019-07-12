@@ -16,6 +16,7 @@
     - [Flutter图解系列 - 阿策～的云栖社区](https://yq.aliyun.com/users/2qfggvaujt7ks?spm=a2c4e.11153940.blogcont692294.2.15a04744Xh73yv)
 8. 大厂教程
     - [alibaba - flutter-go](https://github.com/alibaba/flutter-go)
+    - [alibaba - fish-redux](https://github.com/alibaba/fish-redux)
 
 ## pubspec.yaml速查表
 
