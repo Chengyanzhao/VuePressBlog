@@ -25,6 +25,7 @@
 1. 打开Finder：`$ open [path]`
 2. 查看端口占用：`$ sudo lsof -i :[port]`
 3. 停止某服务：`$ sudo kill -9 [PID]`
+4. 系统偏好设置-安全性与隐私-显示[任何来源]选项：`sudo spctl --master-disable`
 
 ## 快捷键
 
