@@ -10,6 +10,7 @@
 4. [Dart Package国内镜像](https://pub.flutter-io.cn/)
 5. [widgets library](https://api.flutter.dev/flutter/widgets/widgets-library.html)
 6. [material library](https://api.flutter.dev/flutter/material/material-library.html)
+    - [Icon预览](https://material.io/resources/icons/?style=baseline)
 7. 网络文章
     - [Flutter 即学即用系列 - AndroidTraveler的掘金专栏](https://juejin.im/post/5cec9599e51d45775d516f07)
     - [Flutter完整开发实战详解 - 恋猫de小郭的掘金专栏](https://juejin.im/post/5d0634c7f265da1b91639232)
