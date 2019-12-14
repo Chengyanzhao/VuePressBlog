@@ -75,7 +75,9 @@ module.exports = {
         {
           title: 'Net',
           children: [
-            '/blog/Net/HTTP协议'
+            '/blog/Net/HTTP协议',
+            '/blog/Net/HTTPS',
+            '/blog/Net/HTTP-compression',
           ]
         },
         // fe
@@ -101,6 +103,7 @@ module.exports = {
           children: [
             '/blog/Node/nvm',
             '/blog/Node/npm命令',
+            '/blog/Node/Tools',
           ]
         },
         // mongodb
@@ -110,7 +113,8 @@ module.exports = {
             '/blog/MongoDB/',
             '/blog/MongoDB/query',
             '/blog/MongoDB/update',
-            '/blog/MongoDB/数组更新操作'
+            '/blog/MongoDB/数组更新操作',
+            '/blog/MongoDB/Authorization'
           ]
         },
         // Deploy
@@ -157,7 +161,8 @@ module.exports = {
         collapsable: false,
         children: [
           // '',
-          'quick-table'
+          'quick-table',
+          'MaterialTheme',
         ]
       }],
       '/paino/': [{
