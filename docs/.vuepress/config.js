@@ -52,6 +52,7 @@ module.exports = {
             '/blog/JavaScript/Promise',
             '/blog/JavaScript/prototype and constructor',
             '/blog/JavaScript/inherit',
+            '/blog/JavaScript/比较操作符',
             '/blog/JavaScript/事件循环与消息队列',
             '/blog/JavaScript/函数的去抖与节流',
             '/blog/JavaScript/Axios',
