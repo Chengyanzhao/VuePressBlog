@@ -162,12 +162,8 @@ function Cat (name) {
   Animal.call(this)
   this.name = name
 }
-(function () {
-  var Super = function () { }
-  Super.prototype = Animal.prototype
-  var instance = new Super()
-  Cat.prototype = instance
-})()
+
+Cat.prototype = Object.create(Animal.prototype)
 Cat.prototype.constructor = Cat
 ```
 
