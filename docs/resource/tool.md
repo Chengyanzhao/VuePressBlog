@@ -11,3 +11,9 @@
 ### 2.Carbon
 
 [Carbon](https://carbon.now.sh/)是一款代码截图工具。
+
+## 图片处理类
+
+### 1.tinypng - png/jpg图片无损压缩
+
+[tinypng](https://tinypng.com/)
